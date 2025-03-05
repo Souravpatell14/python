@@ -19,3 +19,13 @@ if num % 2 == 0:
     print("Even")
 else:
     print("Odd")
+
+
+
+
+(3) sum two number 
+
+num1 = 5
+num2 = 10
+sum = num1 + num2
+print("The sum is:", sum)
