@@ -10,3 +10,12 @@ elif b > a and b > c:
     print("Largest number is:", b)
 else:
     print("Largest number is:", c)
+
+
+(2) check even and odd 
+
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
