@@ -50,3 +50,21 @@ if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
     print(year, "is a leap year")
 else:
     print(year, "is not a leap year")  # Fixed the missing quote
+
+
+
+(6) Area of a circle 
+
+import math
+
+radius = float(input("Enter the radius the circle: "))
+area = math.pi * radius ** 2
+print("Area of the circle:", area)
+
+
+
+
+
+
+
+
