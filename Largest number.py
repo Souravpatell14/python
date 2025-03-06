@@ -40,3 +40,13 @@ time = float(input ("Enter the time in years:"))
 
 simple_interest=(principal*rate*time)/ 100
 print("Simple Interest:",simple_interest)
+
+
+(5) leap year 
+
+year = int(input("Enter the year: "))
+
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print(year, "is a leap year")
+else:
+    print(year, "is not a leap year")  # Fixed the missing quote
