@@ -62,6 +62,13 @@ area = math.pi * radius ** 2
 print("Area of the circle:", area)
 
 
+(7) convert miles to kilometers 
+
+miles = float(input("Enter miles: ")) 
+km = miles / 1.621371
+print(miles, "miles is equal to", km, "kilometers")
+
+
 
 
 
