@@ -98,3 +98,14 @@ print("The square of the number is",(a**a))
 
 a = "sourav"
 print(len(a))
+
+
+(12) define startswith and endswith
+
+name = "sourav"
+print(len(name))
+print(name.endswith("av"))
+print(name.startswith("so"))
+
+print(name.endswith("so"))
+print(name.startswith("av"))
