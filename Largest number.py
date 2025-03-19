@@ -94,4 +94,7 @@ a = int(input("Enter your number :"))
 # find average 
 print("The square of the number is",(a**a))
 
+(11)length of str.
 
+a = "sourav"
+print(len(a))
