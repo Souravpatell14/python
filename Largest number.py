@@ -119,5 +119,11 @@ name = input("Enter your name:")
 print(f"good afternoon {name}")
 
 
+(14) find double spaces 
+
+name = "sourav is a good  boy"
+
+print(name.find("  "))
+
 
 
