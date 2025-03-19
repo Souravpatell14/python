@@ -126,4 +126,8 @@ name = "sourav is a good  boy"
 print(name.find("  "))
 
 
+(15) replace double spaces
 
+name = "sourav is a  good  boy"
+
+print(name.replace("  "," "))
