@@ -111,9 +111,11 @@ print(name.endswith("so"))
 print(name.startswith("av"))
 
 
-(13) name
+(13) string f useing
 
 name = input("Enter your name:")
+
+# f is string
 print(f"good afternoon {name}")
 
 
