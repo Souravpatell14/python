@@ -74,6 +74,17 @@ a = input("Enter the number")
 print(type(a))
 
 
+(9) find average 
+
+#enter first number 
+a = int(input("Enter the number 1:"))
+
+#enter second number 
+b = int(input("Enter the number 2:"))
+
+# find average 
+print("The average of there two number is",(a+b)/2)
+
 
 
 
