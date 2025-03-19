@@ -68,7 +68,10 @@ miles = float(input("Enter miles: "))
 km = miles / 1.621371
 print(miles, "miles is equal to", km, "kilometers")
 
+(8) type of code
 
+a = input("Enter the number")
+print(type(a))
 
 
 
