@@ -109,3 +109,13 @@ print(name.startswith("so"))
 
 print(name.endswith("so"))
 print(name.startswith("av"))
+
+
+(13) name
+
+name = input("Enter your name:")
+print(f"good afternoon {name}")
+
+
+
+
