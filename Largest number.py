@@ -142,6 +142,6 @@ print (l1)
 
 (17)reverse list
 
-l1 = [23,45,23,13,56]
+l1 = [25,44,45,46,47]
 l1.reverse()
 print (l1)
