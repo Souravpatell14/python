@@ -145,3 +145,10 @@ print (l1)
 l1 = [25,44,45,46,47]
 l1.reverse()
 print (l1)
+
+
+(18) pop list
+
+l1 = [25,44,45,46,47]
+l1.pop(1)
+print (l1)
