@@ -47,3 +47,12 @@ n = int(input("Enter the number "))
 
 for i in range(1,11):
     print(f" {n} × {i} = {n*i}")
+
+
+(5) creat a name starting words 
+
+l = ["harry", "sourav", "adarsh ", "sachin"]
+
+for name in l:
+    if(name.startswith("s")):
+        print(f"Hello :{name}")
