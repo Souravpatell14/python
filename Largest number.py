@@ -1,4 +1,4 @@
-(1) find largest number 
+2(1) find largest number 
 
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
@@ -152,3 +152,14 @@ print (l1)
 l1 = [25,44,45,46,47]
 l1.pop(1)
 print (l1)
+
+
+
+(19) creat a table 
+
+n = int(input("Enter the number "))
+
+for i in range(1,11):
+    print(f" {n} × {i} = {n*i}")
+
+
