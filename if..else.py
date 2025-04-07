@@ -36,3 +36,14 @@ if marks1 >= 33 and marks2 >= 33 and marks3 >= 33:
     print("You have passed with a percentage of:", total_percentage)
 else:
     print("You have failed with a percentage of:", total_percentage)
+
+
+
+
+
+(4) create a table 
+
+n = int(input("Enter the number "))
+
+for i in range(1,11):
+    print(f" {n} × {i} = {n*i}")
