@@ -40,3 +40,22 @@ print(result)
 
 
 
+(3) palindrome hai kya ni hai
+
+# User se ek string input lete hain
+s = input('Enter the string: ')
+
+# Flag variable banate hain, jise initially True set karte hain
+flag = True
+
+# String ke aadhe hisse tak loop chalayenge (kyunki palindrome dono taraf se same hota hai)
+for i in range(0, len(s)//2):
+    # Agar aage se aur peeche se character match nahi karte
+    if s[i] != s[len(s)-i-1]:
+        flag = False  # To flag ko False kar do
+        print('Not a palindrome')  # Aur print kar do Not a palindrome
+        break  # Loop ko turant rok do (kyunki ab pata chal gaya ki palindrome nahi hai)
+
+# Agar pura loop chal gaya aur kabhi mismatch nahi mila
+if flag:
+    print('Palindrome')  # Tab print karo Palindrome
